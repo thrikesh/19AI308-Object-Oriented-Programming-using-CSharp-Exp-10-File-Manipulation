@@ -13,6 +13,7 @@ Step 5: Close the file after writing all user data.
 Step 6: Display a message indicating that the user data has been saved to the file.
 
 # PROGRAM:
+#
 ```
 using System;
 using System.IO;
