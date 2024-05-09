@@ -5,15 +5,16 @@ Develop a C# program to get the values from the user using structure and store i
 To develop a C# program using file streams.
 
 # ALGORITHM:
-Step 1: Define a structure UserData to hold user data fields like name, age, and email.
-Step 2: Create an array of UserData to store multiple user data entries. Use a loop to prompt the user to input their name, age, and email, and store the input in the array.
-Step 3: Specify the file path where the user data will be stored.
-Step 4: Inside the loop, for each user data entry, open the file in append mode using StreamWriter and write the user data to the file.
-Step 5: Close the file after writing all user data.
-Step 6: Display a message indicating that the user data has been saved to the file.
+# Step 1: Define a structure UserData to hold user data fields like name, age, and email.
+# Step 2: Create an array of UserData to store multiple user data entries. Use a loop to prompt the user to input their name, age, and email, and store the input in the array.
+# Step 3: Specify the file path where the user data will be stored.
+# Step 4: Inside the loop, for each user data entry, open the file in append mode using StreamWriter and write the user data to the file.
+# Step 5: Close the file after writing all user data.
+# Step 6: Display a message indicating that the user data has been saved to the file.
 
 # PROGRAM:
-#
+# NAME : THRIKESWAR
+# REGISTER NUMBER : 212222230162
 ```
 using System;
 using System.IO;
@@ -45,11 +46,6 @@ class Program
 
             WriteUserDataToFile(filePath, ud[i]);
         }  
-        
-        
-
-       
-
         Console.WriteLine("User data has been saved to the file.");
     }
 
@@ -69,7 +65,8 @@ class Program
 ```
 
 # OUTPUT:
-![image](https://github.com/Lingeswaran04/19AI308-Object-Oriented-Programming-using-CSharp-Exp-10-File-Manipulation/assets/119103865/e47fc0dd-9e04-46b0-bc69-69d55cf1048b)
+![Screenshot 2024-05-09 211735](https://github.com/thrikesh/19AI308-Object-Oriented-Programming-using-CSharp-Exp-10-File-Manipulation/assets/119576222/97ec6c8d-3761-463c-91e1-1665a9ac1735)
+
 
 
 # RESULT:
